@@ -20,5 +20,11 @@ namespace udvozles
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            
+            txblock_szoveg.Text = "Üdv " + txbox_bekeres.Text;
+        }
     }
 }

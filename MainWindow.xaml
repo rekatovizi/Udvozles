@@ -6,7 +6,10 @@
         xmlns:local="clr-namespace:udvozles"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-    <Grid>
+    <Grid Background="CornflowerBlue">
+        <TextBox x:Name="txbox_bekeres" HorizontalAlignment="Center" TextWrapping="Wrap" Text="Ird be a neved" VerticalAlignment="Center" Width="120" />
+        <Button Content="submit" HorizontalAlignment="Center" Margin="0,250,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.176,-0.11" Click="Button_Click" Background="#FF97DAD5"/>
+        <TextBlock x:Name="txblock_szoveg" HorizontalAlignment="Center" Margin="0,172,0,0" TextWrapping="Wrap" Text="Üdv" VerticalAlignment="Top" Height="31" Width="136" TextAlignment="Center"/>
 
     </Grid>
 </Window>
